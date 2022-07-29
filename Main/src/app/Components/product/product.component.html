@@ -1,0 +1,32 @@
+
+<div class="body">
+<div class="header">
+    <h1 class="text-center fontmain">Our Products</h1> 
+    <p class="text-center fontSecandry col-4"> Various types of unique teapoty products, <br>minimalist and best prices</p>
+</div>
+
+<div class="col-12 animated slideInRight infinite" class="wow slideInRight infinite" data-wow-delay="0.6s">
+    <mat-tab-group style="margin-left: 7em;" mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
+        <mat-tab label="All Products">
+            <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
+        </mat-tab>
+        <mat-tab label="Ceramic">
+            <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
+        </mat-tab>
+        <mat-tab label="Porcelain">
+            <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
+        </mat-tab>
+        <mat-tab label="Frangipani">
+            <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
+        </mat-tab>
+
+        <mat-tab label="Stainless steel">
+            <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
+        </mat-tab>
+    </mat-tab-group>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>

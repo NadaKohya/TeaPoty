@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background-color: #dddddd37;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.carousel-item {
+    width: 100%
+}
+
+.price span {
+    font-size: 18px
+}
+
+.price {
+    margin-bottom: 1em;
+}
+
+.cut {
+    text-decoration: line-through;
+    color: red
+}
+
+.icons i {
+    font-size: 17px;
+    color: green;
+    margin-right: 2px
+}
+
+.offers i {
+    color: green
+}
+
+.delivery i {
+    color: blue
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 2px 11px;
+    margin-right: 3px;
+    border: 1px solid #8f37aa;
+    display: inline-block;
+    color: #8f37aa;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: #8f37aa;
+    background-color: #8f37aa;
+    color: #fff
+}
+
+.wt-align-items-center {
+    align-items: center !important;
+    background: #FDEBD2;
+    width: 10%;
+    border-radius: 8em;
+    height: 2em;
+    text-align: center;
+    padding-left: .5em;
+    margin: 1em;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 0) {
+    .wt-display-flex-xs {
+        display: flex !important;
+    }
+}
+
+.wt-display-inline-block {
+    display: inline-block !important;
+}
+
+.btn-Prodetails {
+    border-radius: 5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    height: 4em;
+    width: auto;
+}
+
+.block-like {
+    flex-wrap: wrap;
+    align-items: center;
+    display: inline-flex;
+}
+
+.carddiv {
+    width: 170px;
+}
+
+.hearticon {
+    --fa-animation-duration: 0.5s;
+    --fa-beat-scale: 2.0;
+    margin-left: 67rem;
+    color: red;
+    width: 26px;
+    height: 26px;
+
+}
+
+
+
+.cardImg{
+    width: 17.04em;
+    height: 15em;
+    border-bottom: 1px solid #ddddddb8;
+}
+
+.CardDisplayAsid{
+    display: inline-flex;
+    width: 17.2em;
+    margin:1em; 
+    margin-top: 3em;
+    height: 28.1em;
+    border: 1px solid rgba(147, 111, 20, 0.563);
+}
+.btn{
+    font-size: 1em;
+    width: auto;
+}
+.btn-dark,.btn-danger{
+    margin-left:.6em;
+}
+
+.alsoLike{
+    margin-left: 0em;
+}

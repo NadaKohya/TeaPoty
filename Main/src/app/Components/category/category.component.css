@@ -1,0 +1,90 @@
+.container1{
+  background-color: #dddddd37;
+}
+
+.title {
+    
+    text-align: left;
+margin-bottom: 1em;
+    margin-top: 3em;
+  }
+
+  h5{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left:2em;
+    line-height: .8;
+  }
+
+   span{
+     font-weight: 100;
+   }
+  
+  .title:before {
+    display: none;
+  }
+  
+.paragraph{
+line-height: 1.2;
+font-weight: 200;
+color: #706f82;
+font-size: 1.2em;
+margin-top: 4em;
+margin-left:26em
+}
+
+
+
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  margin-top: 1.2em;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 0px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
